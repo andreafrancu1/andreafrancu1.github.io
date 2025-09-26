@@ -3,3 +3,5 @@ title: Andrea Francu
 description: hi! this is my website
 # show_downloads: true
 remote_theme: codebygina/template-pintereso-bootstrap-jekyll
+plugins:
+  - jekyll-remote-theme
