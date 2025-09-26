@@ -2,4 +2,4 @@ title: Andrea Francu
 # logo: /path/img.png
 description: hi! this is my website
 # show_downloads: true
-theme: template-pintereso-bootstrap-jekyll
+remote_theme: codebygina/template-pintereso-bootstrap-jekyll
