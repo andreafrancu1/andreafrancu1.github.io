@@ -9,10 +9,21 @@ title: Projects
 
 <div class="row row-cols-1 row-cols-md-2 g-4">
 
+<style>
+.card-img-top, .project-thumb{
+  max-height: 180px; 
+  width: 100%;
+  object-fit: contain;    
+  background: #fff;     
+  border-radius: 12px;
+  padding: 8px;
+}
+</style>
+
   <!-- Project 1 -->
   <div class="col">
     <div class="card h-100">
-      <img src="/assets/img/netflix_logo.png" class="card-img-top" alt="Netflix project thumbnail">
+      <img src="/assets/img/netflix_logo.png" class="project-thumb" alt="Netflix project thumbnail">
       <div class="card-body">
         <h5 class="card-title">Netflix Data Exploration</h5>
         <p class="card-text">Cleaning + imputation + skew fixes on multi-CSV Netflix-style data. EDA, joins, and metrics.</p>
@@ -24,7 +35,7 @@ title: Projects
   <!-- Project 2 -->
   <div class="col">
     <div class="card h-100">
-      <img src="/assets/img/grapes_logo.png" class="card-img-top" alt="SpaceX project thumbnail">
+      <img src="/assets/img/grapes_logo.png" class="project-thumb" alt="SpaceX project thumbnail">
       <div class="card-body">
         <h5 class="card-title">Grape Clusters - An Unsupervised Learning Study about Wine</h5>
         <p class="card-text">Unsupervised Learning methods to create clusters of different wines, which can then be used to make new wine recommendations.</p>
@@ -36,7 +47,7 @@ title: Projects
   <!-- Project 3 -->
   <div class="col">
     <div class="card h-100">
-      <img src="/assets/img/car_logo.png" class="card-img-top" alt="Churn case study thumbnail">
+      <img src="/assets/img/car_logo.png" class="project-thumb" alt="Churn case study thumbnail">
       <div class="card-body">
         <h5 class="card-title">Autonomous Vehicle Sentiment Analysis</h5>
         <p class="card-text">Using natural language processing (NLP) and web scraping tools, this project uses various reddit posts about AVs to analyze sentiment surrounding this technology, as well as model common topics discussed alongside AVs.</p>
