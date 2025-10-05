@@ -5,3 +5,6 @@ description: hi! this is my website
 remote_theme: codebygina/template-pintereso-bootstrap-jekyll
 plugins:
   - jekyll-remote-theme
+  
+url: "https://andreafrancu1.github.io"
+baseurl: ""      # user site = empty
